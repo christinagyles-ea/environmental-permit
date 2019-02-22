@@ -1,9 +1,12 @@
 
-{% extends "layout2.html" %}
+{% extends "layout-guide.html" %}
 
 {% block pageTitle %}
 Apply for a standard rules environmental permit
 {% endblock %}
+
+{% set versionxxx = "v24" %}
+
 
 {% block content %}
 
@@ -77,12 +80,12 @@ Apply for a standard rules environmental permit
 	</li>
 	</ul>
 
-<p>If you are applying for a waste recovery permit to permanently deposit waste on land, you must also read the guidance on waste recovery plans and permits.</p>
+<p>If you are applying for a waste recovery permit to permanently deposit waste on land, you must also read the guidance on <a href="https://www.gov.uk/guidance/waste-recovery-plans-and-permits">waste recovery plans and permits</a>.</p>
 		
 <h3 id="howapply" class="govuk-heading-m">How to apply</h3>
 
 <p class="grey-box">
-	<a href="/{{folder}}/start/start-or-resume">Apply for a bespoke environmental permit</a>
+	<a href="/{{versionxxx}}/start/start-or-resume">Apply for a bespoke environmental permit</a>
 <br>We will tell you what you need to do when you start the application.
 </p>
 
@@ -131,7 +134,7 @@ Apply for a standard rules environmental permit
 						Contact the Environment Agency if you you need help with your application or you cannot apply online.
 					</p>
 
-					<div style="border-left:0.75px solid#bfc1c3; padding:20px;line-height: 0.5;">
+					<div style="border-left:0.75px solid#bfc1c3; padding:20px;line-height:-23.25em;">
 
 							<h4 class="govuk-heading-s">General enquiries</h4>
 
@@ -144,17 +147,23 @@ Apply for a standard rules environmental permit
 				</p>
 
 
-							<div class="email-url-number">
-								<p>
-								  <span class="type">Email</span>
+							<div style="email-url-number">
+								<p class="email">
+									<span class="type">Email</span>
 								  <a class="email" href="mailto:enquiries@environment-agency.gov.uk">enquiries@environment-agency.gov.uk</a>
 								  <br>
+								</p>
+								<p class="tel">
 								  <span class="type">Telephone</span>
 								  03708 506 506
 								  <br>
+								</p>
+								<p class="tel">
 								  <span class="type">Telephone from outside the UK (Monday to Friday, 8am to 6pm GMT)</span>
 								  +44 (0) 114 282 5312
 								  <br>
+								</p>
+								<p class="tel">
 								  <span class="type">Minicom (for the hard of hearing)</span>
 								  03702 422 549
 								</p>
@@ -163,10 +172,10 @@ Apply for a standard rules environmental permit
 							<p class="comments">Monday to Friday, 8am to 6pm</p>
 					
 
-		</div>
+					</div>
 
 				</article>
-				<section>
+		<section>
 
 
 							</div>
